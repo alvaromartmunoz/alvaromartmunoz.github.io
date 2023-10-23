@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'alvaromartmunoz', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,57 +11,54 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
+    linkedin: 'alvaro-martinez-munoz',
+    medium: 'alvaromartmunoz',
+    dev: 'alvaromartmunoz',
+    telegram: 'alvaromartmunoz',
+    website: 'https://alvaromartmunoz.uk',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'alvaromm6556@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Linux',
+    'AWS',
+    'Networking',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Acerinox',
+      position: 'IT Architect',
+      from: 'May 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.acerinox.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Vermont-Solutions',
+      position: 'Systems Administrator',
+      from: 'December 2021',
+      to: 'May 2023',
+      companyLink: 'https://vermont-solutions.com/',
+    },
+    {
+      company: 'Fervimax',
+      position: 'Systems Administrator',
+      from: 'March 2021',
+      to: 'December 2021',
+      companyLink: 'https://fervimax.com',
+    },
+    {
+      company: 'CEU - San Pablo',
+      position: 'Scholar - Systems Administrator',
+      from: 'September 2018',
+      to: 'March 2021',
+      companyLink: 'https://www.uspceu.com/',
     },
   ],
   /* certifications: [
@@ -74,40 +71,40 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
+      institution: 'Ceu  San Pablo',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      from: '2019',
+      to: '2021',
     },
     {
-      institution: 'Institution Name',
+      institution: 'Ceu  San Pablo',
       degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      from: '2017',
+      to: '2019',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
+//    {
+//      title: 'Project Name',
+//      description:
+//        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+//      imageUrl: 'https://via.placeholder.com/250x250',
+//      link: 'https://example.com',
+//    },
+//    {
+//      title: 'Project Name',
+//      description:
+//        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+//      imageUrl: 'https://via.placeholder.com/250x250',
+//      link: 'https://example.com',
+//    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'alvaromartmunoz', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,7 +116,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'winter',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
