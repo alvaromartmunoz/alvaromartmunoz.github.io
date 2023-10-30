@@ -19,10 +19,10 @@ const config = {
     phone: '',
     email: 'alvaromm6556@gmail.com',
   },
-  resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  },
+//  resume: {
+//    fileUrl:
+//      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+//  },
   skills: [
     'MySQL',
     'Git',
@@ -116,7 +116,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'synthwave',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
