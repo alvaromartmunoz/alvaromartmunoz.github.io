@@ -13,9 +13,7 @@ const config = {
   social: {
     linkedin: 'alvaro-martinez-munoz',
     medium: 'alvaromartmunoz',
-    dev: 'alvaromartmunoz',
-    telegram: 'alvaromartmunoz',
-    website: 'https://alvaromartmunoz.uk',
+    website: 'https://alvaromartmunoz.github.io',
     phone: '',
     email: 'alvaromm6556@gmail.com',
   },
@@ -24,12 +22,14 @@ const config = {
 //      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
 //  },
   skills: [
-    'MySQL',
+    'GCP',
     'Git',
     'Docker',
     'Linux',
     'AWS',
-    'Networking',
+    'Jira',
+    'Terraform',
+    'CI/CD',
   ],
   experiences: [
     {
@@ -116,7 +116,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'synthwave',
+    defaultTheme: 'cupcake',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
